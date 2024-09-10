@@ -14,56 +14,39 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # # Review
 # create variables for the following :
 # 1. age
+age = 25 # integer variable
 # 2. name
+name = "john" #string variable
 # 3. song
+song = "took her to the O" #string variable
 # 4. food
+food = "pizza"#string variable
 # 5. number
+number = 2000 #integer variable
 
 
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
-
-
+#concatnation --- + around your variables
+print("once upon a time there was a "+ str(age) + " old coder named " + name + ".")
+print("There was a number " + str(number) + " as well ")
+# put the age amd mumber in a sentence
+print("The age of this person is " + str(age) + " and their favorite number is " + str(number))
+#put the age and number in a new sentence
+date_of_birth = 2008
+number2 = 123
+number3 = 123.456
+number4 = 123.33
+number5 = 4555
+print("The year the person was born was " + str(date_of_birth) + " he likes 4 numbers " + str(number2) + " , " + str(number3) + " , " + str(number4) + " , and " + str(number5))
+print(f"the date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5}")
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teamates would throw {food} until {name} would stop singing.")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
