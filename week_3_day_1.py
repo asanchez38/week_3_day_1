@@ -219,9 +219,17 @@ print(num1%num2)
 # #round one number
 print(round(num1))
 
-
-
-
+name2 = input("what is your name?")
+print("hello",name2)
+num3 = int(input("enter a number "))
+num4 = int(input("enter another number "))
+print("When these numbers are subtracted you get", (num3 - num4))
+print("when these numbers are divided you get",(num3/num4))
+print("The min of your numbers is",min(num3,num4))
+print("the absolute value of one number is",abs(num3))
+print("the floor of one number is",floor(num4))
+print("The ceil of one number is",ceil(num4))
+print("the square root of one number is",sqrt(num3))
 
 
 
