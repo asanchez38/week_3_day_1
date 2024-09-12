@@ -240,6 +240,13 @@ print("the square root of one number is",sqrt(num3))
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
+color = input("enter a color")
+plural_noun =input("enter a plural noun")
+celebrity =input("enter a celebrity")
+print("Roses are {color}")
+print("{plural_noun} are blue")
+print("I love {celebrity}")
+
 
 
 
